@@ -45,4 +45,5 @@ int _printf(const char *format, ...)
 	}
 	_putchar(BUF_FLUSH);
 	va_end(ap);
-	
+	return (sum);
+}
