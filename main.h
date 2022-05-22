@@ -1,4 +1,4 @@
-#ifndef _MAIN_H_
+ifndef _MAIN_H_
 #define _MAIN_H_
 
 #include <stdarg.h>
@@ -33,3 +33,4 @@ int printhex(char *format, va_list);
 int printHEX(char *format, va_list);
 int printocta(char *format, va_list);
 int print_unsign(char *format, va_list);
+#endif
