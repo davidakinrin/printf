@@ -69,3 +69,5 @@ int printHEX(char *format, va_list pa)
 	for (I2 = I - 1; I2 >= 0; I2--)
 		_putchar(NUMHEX[I2]);
 	free(NUMHEX);
+	return (CONTAME);
+}
