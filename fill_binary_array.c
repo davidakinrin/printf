@@ -34,3 +34,4 @@ char *fill_binary_array(char *binary, long int int_in, int isneg, int limit)
 				binary[i] = '0';
 	}
 	return (binary);
+}
